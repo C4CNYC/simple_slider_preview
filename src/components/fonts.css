@@ -1,6 +1,5 @@
-/* righteous regular */
 @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
-/* montserrat-200 - latin */
+
 @font-face {
   font-family: 'Montserrat';
   font-style: normal;
@@ -13,7 +12,7 @@
     url('../assets/fonts/montserrat-v14-latin-200.ttf') format('truetype'), /* Safari, Android, iOS */
     url('../assets/fonts/montserrat-v14-latin-200.svg#Montserrat') format('svg'); /* Legacy iOS */
 }
-montserrat-regular - latin
+
 @font-face {
   font-family: 'Montserrat';
   font-style: normal;
@@ -26,7 +25,7 @@ montserrat-regular - latin
     url('../assets/fonts/montserrat-v14-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
     url('../assets/fonts/montserrat-v14-latin-regular.svg#Montserrat') format('svg'); /* Legacy iOS */
 }
-/* montserrat-700 - latin */
+
 @font-face {
   font-family: 'Montserrat';
   font-style: normal;
@@ -40,7 +39,6 @@ montserrat-regular - latin
     url('../assets/fonts/montserrat-v14-latin-700.svg#Montserrat') format('svg'); /* Legacy iOS */
 }
 
-/* rajdhani-regular - latin */
 @font-face {
   font-family: 'Rajdhani';
   font-style: normal;
@@ -53,7 +51,7 @@ montserrat-regular - latin
     url('../assets/fonts/rajdhani-v9-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
     url('../assets/fonts/rajdhani-v9-latin-regular.svg#Rajdhani') format('svg'); /* Legacy iOS */
 }
-/* rajdhani-700 - latin */
+
 @font-face {
   font-family: 'Rajdhani';
   font-style: normal;
@@ -70,7 +68,8 @@ montserrat-regular - latin
 @font-face {
 	font-family: 'iconic';
 	src: url("../assets/fonts/iconic.woff") format('woff');
-  }
+}
+
 @font-face {
 	font-family: 'consolas';
 	src: url("../assets/fonts/consola.woff") format('woff');

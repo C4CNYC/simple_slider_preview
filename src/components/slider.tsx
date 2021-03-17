@@ -3,17 +3,16 @@ import {ReflexContainer, ReflexElement} from "react-reflex";
 import ReactHtmlParser from "react-html-parser";
 
 import ReactPageScroller from "../utils/react-page-scroller";
-import Lesson from "./example";
+import trainning from "./example";
 
 import "./fonts.css";
 import "./slide.css";
 
 const Slider = () => {
-  const lesson = Lesson;
   const lessonRef = useRef(null);
 
-  if (!lesson) {
-    return <div>Loading</div>
+  if (!trainning) {
+    return <div>No trainning</div>
   }
 
   return (
@@ -25,7 +24,7 @@ const Slider = () => {
         animationTimer={300}
         containerWidth="100%"
       >
-        {lesson.slides.map((slide, slideNumber) => {
+        {trainning.slides.map((slide, slideNumber) => {
           return (
             <div
               key={`${slideNumber}`}
