@@ -4,9 +4,9 @@ import {ReflexContainer, ReflexElement} from "react-reflex";
 import ReactHtmlParser from "react-html-parser";
 
 import ReactPageScroller from "../utils/react-page-scroller";
-import trainning from "./example";
+// import trainning from "./example";
 // you can replace string above with import with path to you trainning file
-// import trainning from "./your-file";
+import trainning from "./c1_p1_t1";
 
 import "./fonts.css";
 import "./slide.css";

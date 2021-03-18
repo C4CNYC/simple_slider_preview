@@ -31,6 +31,9 @@ body {
 .slide__text-color--red {
   color: #f00;
 }
+.slide__text--blue {
+  color: #00f;
+}
 
 .slide__title {
   font-weight: 600;
